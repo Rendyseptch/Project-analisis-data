@@ -10,7 +10,7 @@ import streamlit as st
 sns.set(style='dark')
 
 # Menyiapkan data day_df
-day_df = pd.read_csv('Proyek-Analisis-Data-Dicoding\Dashboard\All_data.csv')
+day_df = pd.read_csv('./Dashboard/All_data.csv')
 day_df.head()
 
 
